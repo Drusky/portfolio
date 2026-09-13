@@ -392,8 +392,11 @@ footer {
   width: 100%;
   max-width: 500px;
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 0 auto 28px;
+  flex-wrap: wrap;
 }
 .footer__row {
   display: flex;
@@ -401,6 +404,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 8% 0;
+  text-align: center;
 }
 
 .footer__logo--img {
